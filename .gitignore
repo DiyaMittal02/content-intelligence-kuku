@@ -1,0 +1,17 @@
+# Generated synthetic data — reproducible via database/generate_data.py (do not commit the large CSVs)
+database/data/synthetic/*.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI temp
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db

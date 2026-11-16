@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.0
+duckdb>=1.0          # runs the SQL over the CSVs; powers the live dashboard queries
+matplotlib>=3.8      # renders the case-study figures
+reportlab>=4.0       # builds reports/case_study.pdf
+streamlit>=1.40      # the interactive dashboard (app.py)
+plotly>=5.20         # dashboard charts
+Pillow>=10.0         # app.py embeds the real Kuku app icon in the header/teardown
+
+# Reviews are fetched with the Python standard library only (urllib) in
+# notebooks/fetch_reviews.py - no extra scraping package is required.
+# Optional, only to RUN notebooks/review_analysis.ipynb interactively:
+# jupyter
